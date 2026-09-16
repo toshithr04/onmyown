@@ -69,7 +69,7 @@ public class Login extends BaseTest {
         for (int i = 0; i < ele.size(); i++) {
 
 
-            System.out.println(ele.get(i).getAttribute("aria-label"));
+            System.out.println(ele.get(i).getAttribute("aria-"));
         }
     }
 

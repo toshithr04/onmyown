@@ -44,14 +44,14 @@ public class Login extends BaseTest {
 
 
 
-//    @Test
-//    public void test1() throws InterruptedException, AWTException {
-//        getDriver().get("https://www.hyrtutorials.com/p/alertsdemo.html");
-//        getPages().initLoginPage().clickAlert();
-//        Thread.sleep(2000);
-//        waitUtils.alerCheckBox();
-//        Thread.sleep(2000);
-//    }
+    @Test
+    public void test1() throws InterruptedException, AWTException {
+        getDriver().get("https://www.hyrtutorials.com/p/alertsdemo.html");
+        getPages().initLoginPage().clickAlert();
+        Thread.sleep(2000);
+        waitUtils.alerCheckBox();
+        Thread.sleep(2000);
+    }
 
     @Test
     public void testx() throws Exception{

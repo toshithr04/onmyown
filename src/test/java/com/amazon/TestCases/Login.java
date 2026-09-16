@@ -73,4 +73,8 @@ public class Login extends BaseTest {
         }
     }
 
+    public void hi(){
+
+    }
+
 }

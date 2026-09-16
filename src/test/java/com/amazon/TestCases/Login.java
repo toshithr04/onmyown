@@ -29,18 +29,18 @@ public class Login extends BaseTest {
 //        System.out.println(data.get("Password"));
 //    }
 //
-//    @Test
-//    public void test() throws InterruptedException {
-//        getDriver().get("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
-//
-//        getPages().initLoginPage().enterFirstName();
-//        Thread.sleep(1000);
-//        getPages().initLoginPage().enterLastName();
-//        Thread.sleep(1000);
-//        getPages().initLoginPage().enterEmail();
-//        System.out.println("1");
-//
-//    }
+    @Test
+    public void test() throws InterruptedException {
+        getDriver().get("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
+
+        getPages().initLoginPage().enterFirstName();
+        Thread.sleep(1000);
+        getPages().initLoginPage().enterLastName();
+        Thread.sleep(1000);
+        getPages().initLoginPage().enterEmail();
+        System.out.println("1");
+
+    }
 
 
 

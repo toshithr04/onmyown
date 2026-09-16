@@ -29,29 +29,29 @@ public class Login extends BaseTest {
 //        System.out.println(data.get("Password"));
 //    }
 //
-    @Test
-    public void test() throws InterruptedException {
-        getDriver().get("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
+//    @Test
+//    public void test() throws InterruptedException {
+//        getDriver().get("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
+//    Hi how are you
+//        getPages().initLoginPage().enterFirstName();
+//        Thread.sleep(1000);
+//        getPages().initLoginPage().enterLastName();
+//        Thread.sleep(1000);
+//        getPages().initLoginPage().enterEmail();
+//        System.out.println("1");
+//
+//    }
 
-        getPages().initLoginPage().enterFirstName();
-        Thread.sleep(1000);
-        getPages().initLoginPage().enterLastName();
-        Thread.sleep(1000);
-        getPages().initLoginPage().enterEmail();
-        System.out.println("1");
-
-    }
 
 
-
-    @Test
-    public void test1() throws InterruptedException, AWTException {
-        getDriver().get("https://www.hyrtutorials.com/p/alertsdemo.html");
-        getPages().initLoginPage().clickAlert();
-        Thread.sleep(2000);
-        waitUtils.alerCheckBox();
-        Thread.sleep(2000);
-    }
+//    @Test
+//    public void test1() throws InterruptedException, AWTException {
+//        getDriver().get("https://www.hyrtutorials.com/p/alertsdemo.html");
+//        getPages().initLoginPage().clickAlert();
+//        Thread.sleep(2000);
+//        waitUtils.alerCheckBox();
+//        Thread.sleep(2000);
+//    }
 
     @Test
     public void testx() throws Exception{
